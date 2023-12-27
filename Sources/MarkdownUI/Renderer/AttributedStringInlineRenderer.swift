@@ -70,7 +70,7 @@ private struct AttributedStringInlineRenderer {
     if self.shouldSkipNextWhitespace {
       self.shouldSkipNextWhitespace = false
     } else {
-      self.result += .init(" ", attributes: self.attributes)
+      self.result += .init("\n", attributes: self.attributes)
     }
   }
 
