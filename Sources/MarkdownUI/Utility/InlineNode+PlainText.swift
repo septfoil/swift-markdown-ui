@@ -7,7 +7,7 @@ extension Sequence where Element == InlineNode {
       case .text(let content):
         return [content]
       case .softBreak:
-        return [" "]
+        return ["\n"]
       case .lineBreak:
         return ["\n"]
       case .code(let content):
