@@ -8,7 +8,8 @@ struct ParagraphView: View {
   init(content: String) {
     self.init(
       content: [
-        .text(content.hasSuffix("\n") ? String(content.dropLast()) : content)
+//        .text(content.hasSuffix("\n") ? String(content.dropLast()) : content)
+        .text(content)
       ]
     )
   }
