@@ -24,7 +24,6 @@ let package = Package(
     .target(
       name: "MarkdownUI",
       dependencies: [
-        "cmark-gfm",
         .product(name: "NetworkImage", package: "NetworkImage"),
       ]
     ),
